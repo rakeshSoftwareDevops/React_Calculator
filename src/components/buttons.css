@@ -1,0 +1,55 @@
+.inputcontrols{
+    display: flex;
+
+}
+.Input{
+    width: 25%;
+    height:52px;
+    text-align: center;
+    border-style: solid; 
+    border-width: 1px;
+    color:#2F2F30;
+    border-Color:#D1D3D7;
+    background-color:#DADCE0;
+}
+.button{
+    display: block;
+    background-color: chocolate;
+}
+.Input:active { 
+    transform: scale(0.98); 
+    /* Scaling button to 0.98 to its original size */ 
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24); 
+    /* Lowering the shadow */ 
+    border: none;
+}
+.InputOperator{
+    width: 25%;
+    height:52px;
+    text-align: center;
+    border-style: solid; 
+    border-width: 1px;
+    color:#FFFFFF;
+    border-color: #DA8B56;
+    background-color:#F4873C;
+}
+.InputOperator:active { 
+    transform: scale(0.98); 
+    /* Scaling button to 0.98 to its original size */ 
+    /*box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);*/
+    /* Lowering the shadow */ 
+}
+.clearsection{
+    background-color:#95949D;
+    height:52px;
+    text-align: center;
+    border-style: solid; 
+    border-width: 1px;
+    width:100%;
+}
+.clearsection:active { 
+    transform: scale(0.98); 
+    /* Scaling button to 0.98 to its original size */ 
+    /*box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24); */
+    /* Lowering the shadow */ 
+}
